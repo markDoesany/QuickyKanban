@@ -4,7 +4,7 @@
 	let { children } = $props();
 </script>
 
-<main class="flex gap-2 min-h-screen">
+<main class="flex min-h-screen pl-[100px]">
 	<LeftSideBar/>
 	{@render children()}
 </main>
